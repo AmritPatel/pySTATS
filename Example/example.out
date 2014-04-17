@@ -1,0 +1,32 @@
+
+ -----------------------------------------------------------------
+| 4/4 Normality Tests Passed For The Dataset => Assume Normality |
+ -----------------------------------------------------------------
+
+Bias & Bias Uncertainty (Assumptions: No Trend, Normality, No Extrapolation)
+----------------------------------------------------------------------------
+
+WARNING: A Positive Bias Is Non-Conservative!
+
+Bias:             -0.00514
+Bias Uncertainty:  0.00243
+
+Trending Analysis
+-----------------
+
+Parameter Range: 0.85517-2.21496
+
+0.669 > 0.05 => No Trend Indicated
+
+Application Parameter: 1.5
+
+Bias:             -0.00514
+Bias Uncertainty:  0.00174
+
+Non-Parametric Analysis
+-----------------------
+
+Beta = 99.4% => Should Be > 90% for NPM = 0
+
+Bias:             -0.00826
+Bias Uncertainty:  0.00050
