@@ -1,4 +1,4 @@
 pySTATS
 =======
 
-An alternative to the USLSTATS utility packaged with SCALE
+An alternative to the USLSTATS utility packaged with SCALE.
