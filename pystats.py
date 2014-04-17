@@ -31,7 +31,7 @@ def ks(data):
 
 def chisquare(data):
 	
-	''' Perform the Chi-Squared Test for normality. '''
+	''' Perform the Chi-Squared Test for normality. ''' 
 
 	normal = 0
 	(tstat, p) = scipy.stats.chisquare(data)
