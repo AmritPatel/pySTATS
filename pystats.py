@@ -1,11 +1,12 @@
 import sys
+import math
+import re
+
+import numpy
 import scipy.stats
 import statsmodels.stats.diagnostic
 import statsmodels.api as sm
 import pylab as plt
-import numpy
-import math
-import re
 
 def ks(data):
 	
