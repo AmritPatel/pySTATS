@@ -210,8 +210,8 @@ def checknorm(data, sig, outp):
 	if count >= 2:
 		fname.write('\n -----------------------------------------------------------------\n')
 		print '\n -----------------------------------------------------------------'
-		fname.write('| {0}/4 Normality Tests Passed For The Dataset => Assume Normality |\n'.format(count))
-		print '| {0}/4 Normality Tests Passed For The Dataset => Assume Normality |'.format(count)
+		fname.write('| {0}/3 Normality Tests Passed For The Dataset => Assume Normality |\n'.format(count))
+		print '| {0}/3 Normality Tests Passed For The Dataset => Assume Normality |'.format(count)
 		fname.write(' -----------------------------------------------------------------\n')
 		print ' -----------------------------------------------------------------'
 		fname.write('\nBias & Bias Uncertainty (Assumptions: No Trend, Normality, No Extrapolation)\n')
@@ -231,8 +231,8 @@ def checknorm(data, sig, outp):
 	elif count < 2:
 		fname.write('\n -----------------------------------------------------------------------\n')
 		print '\n -----------------------------------------------------------------------'	
-		fname.write('| {0}/4 Normality Tests Passed For The Dataset => DO NOT Assume Normality |\n'.format(count))
-		print '| {0}/4 Normality Tests Passed For The Dataset => DO NOT Assume Normality |'.format(count)
+		fname.write('| {0}/3 Normality Tests Passed For The Dataset => DO NOT Assume Normality |\n'.format(count))
+		print '| {0}/3 Normality Tests Passed For The Dataset => DO NOT Assume Normality |'.format(count)
 		fname.write(' -----------------------------------------------------------------------\n')
 		print ' -----------------------------------------------------------------------'
 		fname.close()
