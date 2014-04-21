@@ -125,7 +125,7 @@ def normtest(a):
 	else:
 		count.append(dagostino(a))
 	count.append(anderson(a))
-	count.append(chisquare(a))
+	#count.append(chisquare(a)) Test removed -- replaced by Lilliefors
 	count.append(ks(a))
 
 	sum = 0
